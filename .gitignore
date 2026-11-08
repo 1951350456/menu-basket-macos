@@ -1,0 +1,9 @@
+# 构建产物
+build/
+.build/
+
+# 本机代码签名证书与私钥（由 make-signing-cert.sh 生成，绝不能提交）
+.signing/
+
+# macOS
+.DS_Store
